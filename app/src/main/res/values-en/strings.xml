@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DMII</string>
+    <string name="compute">Compute</string>
+    <string name="first_number">Enter first number</string>
+    <string name="result">%s of %f and %f is %f</string>
+    <string name="second_number">Enter second number</string>
+    <string name="number_error">Bullshit</string>
+    <string name="sum">The sum</string>
+    <string name="division">The division</string>
+    <string name="product">The product</string>
+    <string name="minus">The subtraction</string>
+    <string name="change_screen1">Calculator</string>
+    <string name="change_screen2">Location</string>
+    <string name="permission">Permission to access your gps is needed to display your localization</string>
+    <string name="permission_title">Permission required</string>
+</resources>

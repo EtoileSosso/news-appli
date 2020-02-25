@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">news</string>
+    <string name="source">%s - %s</string>
+    <string name="button">Go to article</string>
+    <string name="image_description">Article image</string>
+    <string name="like">Like</string>
+    <string name="unlike">Unlike</string>
+    <string name="share">Share</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorite_remove">Unfav</string>
+</resources>

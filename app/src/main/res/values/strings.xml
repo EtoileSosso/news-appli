@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">DMII</string>
+    <string name="first_number">Entrez le premier nombre</string>
+    <string name="second_number">Entrez le second nombre</string>
+    <string name="compute">Calculer</string>
+    <string name="result">%s de %f et de %f est %f</string>
+    <string name="number_error">N\'importe quoi</string>
+    <string name="change_screen1">Calculette</string>
+    <string name="change_screen2">Location</string>
+    <string name="sum">La somme</string>
+    <string name="division">La division</string>
+    <string name="product">Le produit</string>
+    <string name="minus">La soustraction</string>
+    <string name="permission">Nous avons besoin d\'accéder à votre GPS pour faire fonctionner cette page</string>
+    <string name="permission_title">Permission requise</string>
+    <string name="localization" translatable="false">Latitude: %s, Longitude %s</string>
+</resources>

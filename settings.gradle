@@ -1,0 +1,4 @@
+include ':app', ':databiding'
+include ':news'
+/*include ':example'*/
+rootProject.name='DMII'

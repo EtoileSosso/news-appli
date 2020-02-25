@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/plusButton"
+        android:text="+"
+        style="@style/MyButton"
+        android:textSize="100sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.49"
+        app:layout_constraintHeight_percent="0.25"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/minusButton"
+        android:text="-"
+        style="@style/MyButton"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.49"
+        app:layout_constraintHeight_percent="0.25"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/timesButton"
+        android:text="x"
+        style="@style/MyButton"
+        android:textSize="100sp"
+        app:layout_constraintTop_toBottomOf="@id/plusButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.49"
+        app:layout_constraintHeight_percent="0.25"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/divButton"
+        style="@style/MyButton"
+        android:text="/"
+        android:textSize="100sp"
+        app:layout_constraintTop_toBottomOf="@id/plusButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.49"
+        app:layout_constraintHeight_percent="0.25"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/previousResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timesButton"
+        android:textColor="@color/colorAccent"/>
+
+    <FrameLayout
+        android:id="@+id/compute_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
